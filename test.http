@@ -1,0 +1,17 @@
+POST http://localhost:8080/books
+Content-Type: application/json
+
+{
+    "name":"Harry Potter",
+    "author":"J. K. Rowling"
+}
+
+###
+
+GET http://localhost:8080/books
+Content-Type: application/json
+
+###
+
+GET http://localhost:8080/books/1
+Content-Type: application/json
